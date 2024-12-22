@@ -1,0 +1,61 @@
+# Ignore les fichiers binaires générés par la compilation
+bin/
+obj/
+
+# Ignorer les fichiers utilisateur de l'éditeur Visual Studio
+.vs/
+.vscode/
+.idea/
+
+# Ignorer les fichiers de build de Visual Studio
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]istro/
+[Dd]ebug/
+[Dd]ebug_x64/
+[Dd]ebug_x86/
+[Dd]ebug_arm/
+
+# Ignorer les fichiers de logs
+*.log
+logs/
+
+# Fichiers de configuration utilisateur de Visual Studio
+.vs2019/
+.vs2017/
+.vs2015/
+
+# Ignorer les fichiers de packages NuGet
+*.nupkg
+.nuget/
+packages/
+
+# Fichiers de cache de l'outil de gestion de paquets
+.vscode/
+
+# Fichiers de configuration liés à IIS Express
+iisexpress/
+
+# Ignore les fichiers générés par dotnet
+.project.lock.json
+.project.fragment.lock.json
+artifacts/
+
+# Ignorer les secrets et fichiers de configuration sensibles
+appsettings.Development.json
+appsettings.Test.json
+appsettings.Local.json
+secrets.json
+
+# Ignorer les fichiers d’exportation de Docker
+docker-compose.override.yml
+
+# Ignore les répertoires .idea pour JetBrains Rider ou d'autres IDE
+.idea/
+
+# Ignorer les fichiers binaires ou spécifiques à OS
+Thumbs.db
+Desktop.ini
+
+# Ignorer les fichiers de configuration générés par JetBrains Rider
+.ide
